@@ -1,0 +1,13 @@
+-Weight Distribution (The "Anchor" Effect)
+The batter holder was anchored at the back of the breadboard tilting the breadboard like a seesaw and lifting the wheels of the ground lowering its torque and increasing its start up current needed. 
+Fix: Make sure to anchor the holder such that it's placed on top of the 2 motors or in the middle of the breadboard.
+
+-Insufficient Starting Torque
+While using 6AA batteries it was just fine but when the battery holder's weight was added ontop of the chasis the motors needed a bigger start up torque.
+Fix: 6AA batteries were switched to 7AA battery and the gap was joined using a copper wire
+
+-Logic Vs Drive Power Interference
+I hooked up 7.5V to both logic (Vcc1) and the drive power (Vcc2) but I kept getting random results (one wheel spinning)
+Fix: Stick to the rated voltage per pin of the motor driver and use a voltage regulator to step the voltage down.
+
+*If all errors avoided and still only one wheel is spinning, it's almost always a power issue. Check wether your batteries are drained or not*
