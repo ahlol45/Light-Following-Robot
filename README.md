@@ -21,10 +21,7 @@ Movement: From the LDR current travels to the L293D driver that sends powers to 
 Power: A 6-8 AA battery pack provides raw power to the motors via Pin 8 (Power 2/Vcc2), while an LM7805 regulates the voltage to a steady 5V for the Pin 16 
 (Power 1/Vcc1).
 
-
-Key Features:
-
-The breadboard is used as the chasis/frame making the robot simple yet powerful and works with charm.
+Key Features: The breadboard is used as the chasis/frame making the robot simple yet powerful and works with charm.
 In case of an AA battery holder of 8AA batteries when the builder only has 6 as an example, a wire of copper may be used to connect the 2 terminals of the gap in the battery holder.
 The heavy battery holder is placed ON the chasis right above the 2 motors providing heavy weight torque but fast movement.
 
