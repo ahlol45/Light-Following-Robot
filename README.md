@@ -14,7 +14,7 @@ Components:
 
 How it Works: 
 
-Sensors: The LDRS act as the 'eye' of the robot detecting light and decreasing its resistance, it's hooked up with a voltage divider using a resistor of 1k ohm (adjustable per preference). When no light falls on the LDRs, they have maximum resistance thus current is goes through the path with less resistance but when the LDR's resistance decreases, current goes through the LDRs path.
+Sensors: The LDRS act as the 'eye' of the robot detecting light and decreasing its resistance, it's hooked up with a voltage divider using a resistor of 1k ohm (adjustable per preference). When no light falls on the LDRs, they have maximum resistance thus current goes through the path with less resistance but when the LDR's resistance decreases, current goes through the LDRs path.
 
 Movement: From the LDR current travels to the L293D driver that sends powers to the motors with rotate its wheels.
 
