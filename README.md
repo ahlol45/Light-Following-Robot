@@ -25,4 +25,6 @@ Key Features: The breadboard is used as the chasis/frame making the robot simple
 In case of an AA battery holder of 8AA batteries when the builder only has 6 as an example, a wire of copper may be used to connect the 2 terminals of the gap in the battery holder.
 The heavy battery holder is placed ON the chasis right above the 2 motors providing heavy weight torque but fast movement.
 
+Note: Increasing the resistor values increases the sensitivity to light.
+
 *IMPORTANT: Make sure that the L293D Pin 8 goes to the Battery Positive, but Pin 16 goes to the Output of the 7805. This keeps the driver from burning out.*
